@@ -1,1 +1,1 @@
-# hackarton-e-commerce-challenge
+# hackaton-e-commerce-challenge
