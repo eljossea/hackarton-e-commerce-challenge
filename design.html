@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>JOBAR</title>
 </head>
 <body>
+
+
     <section class="header">
         <nav>
             <h2>JOBAR</h2>
@@ -21,39 +24,52 @@
                     <li><a href="#">HOME</a></li>
                     <li><a href="/gallery.html">GALLERY</a></li>
                     <li><a href="">CONTACT</a></li>
-                    <li><button class="btn"><a href="#">SIGN UP</a></button></li>
-                    <li><a href=""><img class="img" src="/assets/download-removebg-preview.png" alt=""></a></li>
+                    <li><button class="btn"><a href="/login.html">LOGIN/SIGN UP/</a></button></li>
+                    <!-- <li><a href=""><img class="img" src="/assets/download-removebg-preview.png" alt=""></a></li> -->
                 </ul>
                 
             </div>
         </nav>
 
-        <img class="bg" src="/assets/ph.png" alt="">
+        <!-- <img class="bg" src="/assets/ph.png" alt=""> -->
         <!-- <img class="bg" src="/assets/Capture-removebg-preview.png" alt=""> -->
         <h1>UPGRADE YOUR <span>MOBILE</span>  <br> EXPERIENCE</h1>
         <button class="Ebtn"><a href="/gallery.html"></a>EXPLORE</button>
         
     </section>
 
-    
-    <section class="featured-product">
-        <h2>FEATURED PRODUCT</h2>
-        <div class="grid-container">
-            <div class="grid-item"></div>
-            <div class="grid-item1"></div>
-            <div class="grid-item2"></div>
-            <div class="grid-item3"></div>
-            <div class="grid-item4"></div>
-            <div class="grid-item5"></div>
-            <div class="grid-item6"></div>
-            <div class="grid-item7"></div>
-            <div class="grid-item8"></div>
-        </div>
-    </section>
+    <!-- SLIDER  -->
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="/assets/Honor-Magic-Vs.jpg" alt="" srcset=""></div>
+    <div class="swiper-slide"><img src="/assets/Honor-Magic-Vs.jpg" alt="" srcset=""></div>
+    <div class="swiper-slide"><img src="/assets/honour.webp" alt="" srcset=""></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
 
 
+
+
+
+  
+
+<!-- PRODUCT PAGE  -->
     <section class="productPage">
-        <div class="container">
+        <div class="productContainer">
             <div class="product">
               <div class="gallery">
                 <img src="/assets/image1.jpg" alt="" id="productImg">
@@ -63,13 +79,13 @@
                 </div>
               </div>
               <div class="details">
-                <h2>best phone</h2>
+                <h2>HOT DEAL</h2>
                 <h3>$50.00</h3>
                 <h4>30% OFF</h4>
                 <p>the best phone that can satisfy you future</p>
                 <form>
                   <div class="size-select">
-                    <p>size</p>
+                    <p>Size</p>
                       <label for="future">
                         <input type="radio" name="size" id="future">
                         <span>F</span>
@@ -81,7 +97,7 @@
                   </div>
           
                   <div class="color-select">
-                    <p>color</p>
+                    <p>Color</p>
                     <label for="red">
                       <input type="radio" name="color-1" id="red">
                       <span class="color-1"></span>
@@ -97,7 +113,7 @@
                     <input type="number" value="1">
                   </div>
           
-                  <button>Buy Now</button>
+                  <button class="buy">Buy Now</button>
           
                 </form>
               </div>
@@ -106,8 +122,37 @@
             
     </section>
 
+    <!-- ITEMS  -->
+    <section class="items">
+      <div class="p">
+        <div class="card">
+        <img src="/assets/img p.JPG" alt="">
+        <h2>Iphone</h2>
+      </div>
+      </div>
+      <div class="p">
+        <div class="card">
+        <img src="/assets/img p.JPG" alt="">
+        <h2>Nokia</h2>
+      </div>
+      </div>
+      <div class="p">
+        <div class="card">
+        <img src="/assets/img p.JPG" alt="">
+        <h2>Samsung</h2>
+      </div>
+      </div>
+
+    </section>
+
+   
+    
+      <!-- Magic Card
+    </div> -->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/slider.js"></script>
     <script src="/design.js"></script>
     </body>
 </html>
