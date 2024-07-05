@@ -513,6 +513,9 @@ footer{
   box-shadow: #00d874;
 }
 .gridItem4{
+  width: 400px;
+  height: 100vh;
+  padding: o;
   background-color: #f3ecf0;
   grid-column: 4;
   grid-row: 1 / span 4;
@@ -521,5 +524,52 @@ footer{
   box-shadow: #00d874;
 }
 
+.label {
+  background-color: #7a5353;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  width: 90%;
+  height: 45vh;
+  margin: auto;
+  margin-top: 120px;
+  margin-right: 200px;
+}
 
+.label #name, #email {
+  margin-top: 20px;
+  width: 47.5%;
+  height: 30px;
+}
+.label #Subject {
+  margin-top: 20px;
+  width: 98%;
+  height: 30px;
+}
+
+.label #message {
+  margin-top: 20px;
+  width: 98%;
+  height: 90px;
+}
+
+.label #button {
+  margin-top: 20px;
+  padding: 0;
+  width: 30%;
+  height: 30px;
+  color: white;
+  background-color: #ed563b;
+  border: none;
+  border-radius: 5px;
+}
+
+.map {
+  width: 100px;
+  height: 10px;
+  margin: auto;
+  margin-right: 500px;
+  padding-right: 900px;
+  z-index: 1;
+  border-radius: 5px;
+}
 
