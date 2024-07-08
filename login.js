@@ -27,3 +27,19 @@ createAccountLink.addEventListener('click', (e) => {
 	e.preventDefault();
 	// TO DO: implement create account logic
 });
+
+
+const formm = document.querySelector('.login-form');
+formm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const username = document.querySelector('#username').value;
+  const password = document.querySelector('#password').value;
+  // Validate username and password
+  if (username && password) {
+    // Login logic goes here
+    // Redirect to home page
+    window.location.href = 'design.html'; // or '/' or whatever your home page URL is
+  } else {
+    alert('Please fill in both username and password.');
+  }
+});

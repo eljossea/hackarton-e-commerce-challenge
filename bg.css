@@ -1,0 +1,25 @@
+
+.blinks{
+    width: 100%;
+    height: 700px;
+    background-color: gray;
+}
+.blink {
+    animation: blink 1s infinite;
+    color: #007bff; /* initial text color */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+      color: #007bff; /* initial text color */
+    }
+    50% {
+      opacity: 0;
+      color: #ff0000; /* blinking text color */
+    }
+    100% {
+      opacity: 1;
+      color: #007bff; /* initial text color */
+    }
+  }
