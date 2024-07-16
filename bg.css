@@ -23,3 +23,141 @@
       color: #007bff; /* initial text color */
     }
   }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+
+
+
+
+  .pf{
+    width: 400px;
+    height: 150px;
+    background-color: #007bff17;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .phoneFinder {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    background-color: #45a04944;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .phoneFinder h3{
+    margin: auto;
+    /* margin-top: 0; */
+  }
+  .phoneFinder img{
+    /* margin: auto; */
+    margin-top: 0
+
+  }
+  .pf ul{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: #605f5fc0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding: 10px;
+  }
+  .pf ul li {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 3s ease;
+  }
+  .pf ul li:hover{
+    background-color: #af6d4c;
+    transform: scale(1.1);
+   
+  }
+ 
+
+  .display{
+    width: 400px;
+    height: 500px;
+    background-color: #4caf4f00;
+    padding: 10px;
+  }
+  .imgd img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .imgd p{
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
