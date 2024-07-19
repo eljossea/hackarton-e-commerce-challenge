@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/samsung.css">
+</head>
+<body>
+    <div class="iphone">
+        <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127" alt="">
+        <div class="iphoneD">
+            <p>Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br>
+                Brand: Apple | Similar products from Apple <br>
+                ₦ 1,898,000
+                ₦ 3,300,000
+                42% <br>
+                In stock <br>
+                
+                + shipping from ₦500 to every state in Nigeria <br>
+                5 out of 5 <br>
+                (1 verified rating)</p>
+                <button><a href=""><img src="" alt="">Add to cart</a></button>
+        </div>
+        <div class="descript">
+            <h2>DELIVERY & RETURNS <br> <span>Choose your location</span> </h2>
+            
+            <div>
+                <h2>location</h2>
+                <select name="text" id="">
+                    <option value="lagos"></option>
+                    <option value="lagos"></option>
+                    <option value="lagos"></option>
+                    <option value="lagos"></option>
+                </select>
+            </div>                      
+        </div>
+    </div>
+</body>
+</html>
