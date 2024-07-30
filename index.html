@@ -8,10 +8,10 @@
     <script src="https://kit.fontawesome.com/3c703f9964.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="stylesheet" href="/shop.css"> -->
     <title>JOBAR</title>
 </head>
 <body>
-
 
     <section class="header">
         <video autoplay loop muted>
@@ -20,16 +20,20 @@
         <nav>
             <h2>JOBAR</h2>
             <!-- <img src="/assets/phone-removebg-preview.png" alt=""> -->
+
+
+            
+
             <form class="search">
-                <input class="sb"  placeholder="">
-                <button class="sbtn" type="submit">Search</button>
+                <input type="text" id="search-input" placeholder="Search products...">
+                <button class="sbtn" type="text">Search</button>
               </form>
               
             <div class="">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="/shop.html">SHOP</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
                     <li><button class="btn"><a href="/login.html">LOGIN/SIGN UP </a></button></li>
                 </ul>
                 
@@ -51,32 +55,24 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide">
-      <img src="https://cdn.pixabay.com/photo/2017/07/06/16/31/smartphone-2478479_1280.jpg" alt="" srcset="">
-      <h3><span class="span1">Connect and Explore With <br>Our Brand!!!</span></h3>
+      <img src="/assets/slide6.png" alt="" srcset="">
+      <img src="/assets/slide6.png" alt="">
     </div>
-    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2023/10/02/01/36/cell-phone-8288353_1280.jpg" alt="" srcset="">
-      <h3>Quality That Speak!!!</h3>
+    <div class="swiper-slide"><img src="/assets/slide2.png" alt="" srcset="">
+      <h3></h3>
     </div>
-    <div class="swiper-slide"><img src="/assets/slide2.jpg" alt="" srcset="">
-      <h3>Discovering The Quality!!!</h3>
+    <div class="swiper-slide">
+      <img src="/assets/slide5.png" alt="" srcset="">
     </div>
-    <div class="swiper-slide"><img src="https://cdn.pixabay.com/photo/2021/11/16/15/35/technology-6801334_1280.jpg" alt="" srcset="">
-      <h3><span class="span4">Experience The Latest In Mobile Technology!!!</span></h3>
+    <div class="swiper-slide">
+      <img src="/assets/slide4.png" alt="" srcset="">
     </div>
-    <div class="swiper-slide"><img src="/assets/slide2.jpg" alt="" srcset="">
-      <h3>discovering the quality!!!</h3>
+    <div class="swiper-slide"><img src="/assets/slide3.png" alt="" srcset="">
+      
     </div>
     ...
   </div>
-  <!-- If we need pagination -->
-  <!-- <div class="swiper-pagination"></div> -->
-
-  <!-- If we need navigation buttons -->
-  <!-- <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div> -->
-
-  <!-- If we need scrollbar -->
-  <!-- <div class="swiper-scrollbar"></div> -->
+  
 </div>
 
 <!-- FLASH SALES  -->
@@ -114,63 +110,6 @@
 </section>
 
 
-  
-
-<!-- PRODUCT PAGE  -->
-    <section class="productPage">
-        <div class="productContainer">
-            <div class="product">
-              <div class="productGallery">
-                <img src="/assets/img p1.JPG" alt="" id="productImg">
-                <div class="controls">
-                  <span class="btnActive"></span>
-                  <span class="btnA"></span>
-                </div>
-              </div>
-              <div class="details">
-                <h2>HOT DEAL</h2>
-                <h3>$50.00</h3>
-                <h4>30% OFF</h4>
-                <p>the best phone that can satisfy you future</p>
-                <form>
-                  <div class="size-select">
-                    <p>Size</p>
-                      <label for="future">
-                        <input type="radio" name="size" id="future">
-                        <span>F</span>
-                      </label>
-                      <label for="origin">
-                        <input type="radio" name="size" id="origin">
-                        <span>O</span>
-                      </label>
-                  </div>
-          
-                  <div class="color-select">
-                    <p>Color</p>
-                    <label for="red">
-                      <input type="radio" name="color-1" id="red">
-                      <span class="color-1"></span>
-                    </label>
-                    <label for="green">
-                      <input type="radio" name="color-2" id="green">
-                      <span class="color-2"></span>
-                    </label>
-                  </div>
-          
-                  <div class="quantity-select">
-                    <p>Quantity</p>
-                    <input type="number" value="1">
-                  </div>
-          
-                  <button class="buy">Buy Now</button>
-          
-                </form>
-              </div>
-            </div>
-          </div>
-            
-    </section>
-
     <section>
       <div class="image-container">
         <img src="/assets/ph1.jpg" alt="Image">
@@ -186,19 +125,20 @@
     <section class="items">
       <div class="p">
         <div class="card">
-        <img src="/assets/img p.JPG" alt="">
+        <a href="shop.html"><img src="/assets/img p.JPG" alt=""></a>
         <h2>Iphone</h2>
       </div>
       </div>
       <div class="p">
         <div class="card">
-        <img src="https://th.bing.com/th/id/OIP.LiPoiuRFomLNH3PnFhLpzAHaIR?pid=ImgDet&w=202&h=225&c=7" alt="">
+        <a href="/nokiaShop.html"><img src="https://th.bing.com/th/id/OIP.LiPoiuRFomLNH3PnFhLpzAHaIR?pid=ImgDet&w=202&h=225&c=7" alt=""></a>
         <h2>Nokia</h2>
       </div>
       </div>
       <div class="p">
         <div class="card">
-        <img src="https://th.bing.com/th/id/OIP.VkyjTG1siFDu0T5w_MqawQHaHa?pid=ImgDet&w=180&h=180&c=7" alt="">
+          <a href="shop.html"><img src="https://th.bing.com/th/id/OIP.VkyjTG1siFDu0T5w_MqawQHaHa?pid=ImgDet&w=180&h=180&c=7" alt=""></a>
+        
         <h2>Samsung</h2>
       </div>
       </div>
@@ -254,6 +194,8 @@
     </section>
 
 
+
+    <script src="shop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/slider.js"></script>
     <script src="/index.js"></script>

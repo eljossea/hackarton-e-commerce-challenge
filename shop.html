@@ -3,12 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/3c703f9964.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/4604cf6a4e.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="/shop.css">
+    <title>JOBAR</title>
 </head>
 <body>
+    <nav>
+        <h2>JOBAR</h2>
+        <!-- <img src="/assets/phone-removebg-preview.png" alt=""> -->
+        <form class="search">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button class="sbtn" type="text">Search</button>
+          </form>
+          
+        <div class="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="btn"><a href="login.html">Login/Signup </a></button></li>
+                <div class="shoppingBasket">
+                    <i class="fa-solid fa-cart-plus" style="color: #f7f3f3;"></i>
+                    <!-- <span class="quantity">0</span> -->
+                </div>
+            </ul>
+            
+        </div>
+    </nav>
+
+
+    <section >
+        <div class="video">
+          <video autoplay loop muted>
+            <source src="/assets/ani.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+    <!-- THE SHOP  -->
+
+    <!-- <div class="container">
+        <header>
+            <h2>THE SHOP</h2>
+            
+        </header>
+        <div class="products"></div>
+    </div>
+
+    <div class="cart">
+        <h3>My Cart</h3>
+        <ul class="productlist"></ul>
+
+
+        <div class="checkout">
+            <div class="total"><small>subtotal (items)<i class="fa-solid fa-naira-sign">0</i>0</small></div>
+            <div class="close">close</div>
+        </div>
+    </div>
+     -->
+
+
+
+ <section class="shop">
+
+     <div class="show-cart-button" onclick="showCart()">Show Cart<i class="fa-duotone fa-solid fa-cart-plus"></i></div>
     
+    
+     <div class="product-list" id="product-list"></div>
+
+ <div class="product-details" id="product-details">
+     <img id="product-image" src="" alt="Product Image">
+     <div id="product-description"></div>
+     <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+     <button class="back-button" onclick="showProductList()">Back to Products</button>
+ </div>
+
+ 
+
+
+ <div class="cart" id="cart">
+     <h2>Shopping Cart</h2>
+     <div id="cart-items"></div>
+     <div class="cart-summary">
+         <p>Total Price: ₦<span id="total-price">0</span></p>
+         <p>Total Quantity: <span id="total-quantity">0</span></p>
+     </div>
+     <button class="checkout-button" onclick="showCheckout()">Proceed to Checkout</button>
+     <button class="back-button" onclick="hideCart()">Back to Products</button>
+ </div>
+
+ <div class="checkout" id="checkout">
+     <h2>Checkout</h2>
+     <div id="checkout-items"></div>
+     <div class="checkout-summary">
+         <p>Total Price: ₦<span id="checkout-total-price">0</span></p>
+         <p>Total Quantity: <span id="checkout-total-quantity">0</span></p>
+     </div>
+     <form class="checkout-form" id="checkout-form">
+         <input type="text" id="name" placeholder="Full Name" required>
+         <input type="email" id="email" placeholder="Email Address" required>
+         <input type="text" id="address" placeholder="Shipping Address" required>
+         <textarea id="notes" placeholder="Additional Notes"></textarea>
+         <button class="checkout-button" type="submit">Place Order</button>
+     </form>
+     <button class="back-button" onclick="hideCheckout()">Back to Cart</button>
+ </div>
+ 
+</section>
 
 
 

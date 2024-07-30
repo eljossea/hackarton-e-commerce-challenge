@@ -1,40 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/samsung.css">
-</head>
-<body>
-    <div class="iphone">
-        <img src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127" alt="">
-        <div class="iphoneD">
-            <p>Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br>
-                Brand: Apple | Similar products from Apple <br>
-                ₦ 1,898,000
-                ₦ 3,300,000
-                42% <br>
-                In stock <br>
-                
-                + shipping from ₦500 to every state in Nigeria <br>
-                5 out of 5 <br>
-                (1 verified rating)</p>
-                <button><a href=""><img src="" alt="">Add to cart</a></button>
-        </div>
-        <div class="descript">
-            <h2>DELIVERY & RETURNS <br> <span>Choose your location</span> </h2>
-            
-            <div>
-                <h2>location</h2>
-                <select name="text" id="">
-                    <option value="lagos"></option>
-                    <option value="lagos"></option>
-                    <option value="lagos"></option>
-                    <option value="lagos"></option>
-                </select>
-            </div>                      
-        </div>
-    </div>
-</body>
-</html>
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+ 
+ /* HEADER */
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #111010d2;
+  }
+  h2 {
+    padding-left: 20px;
+    color: #131212;
+  }
+  img {
+    width: 70px;
+    height: 50px;
+  }
+  .search {
+    padding-left: 200px;
+    display: flex;
+  }
+  .sb {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+  }
+  .sbtn {
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  ul {
+      margin-top: 10px;
+      padding-left: 200px;
+      display: flex;
+  }
+  li {
+      justify-content: space-between;
+      margin-right: 20px;
+      text-decoration: #fff;
+      font-size: 20px;
+      list-style-type: none;
+      display: inline;
+      align-items: center;
+  }
+  li :hover{
+      color: goldenrod;
+  }
+  .btn {
+      background-color: red;
+      width: 150px;
+      height: 30px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+  
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  a :hover {
+      cursor: pointer;
+}
+
+
+.iphone{
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 127, 80, 0.116);
+
+}
+.iphoneD {
+    margin-top: 50px;
+}
+.iphone img{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+}
+.iphone p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.iphone button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+}
+.iphone button img{
+    width: 40px;
+    height: 20px;
+   
+}
+
+.descript {
+    display: flex;
+    width: 400px;
+    height: 800px;
+    background-color: aquamarine;
+    margin-left: 10px;
+}

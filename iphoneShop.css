@@ -77,15 +77,14 @@
 .video{
     width: 1050px;
     height: 100px;
-    margin-left: 0px;
-    background-color: #00d874;
+    /* background-color: #00d874; */
     border-radius: 7px;
     background: url(/assets/ani.mp4);
 }
 
 /* THE SHOP  */
 
-/* body{
+body{
     background-color: #fff;
 }
 
@@ -215,7 +214,7 @@ img{
     color: #fff;
     row-gap: 10px;
     margin-bottom: 20px;
-    
+    /* border: 1px solid; */
     border-bottom: 1px solid ;
 }
 .productlist li img {
@@ -254,133 +253,4 @@ img{
         margin-bottom: 20px;
     }
     
-} */
-
-
-/* 
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-} */
-
-.shop{
-    /* background-color: #555; */
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-    /* display: flex; */
-    padding-left: 60px;
 }
-
-.shoppingBasket{
-    position: relative;
-}
-.shoppingBasket .quantity{
-    background-color: brown;
-    border-radius: 100%;
-    color: #fff;
-    padding: 0 8px;
-    position: absolute;
-    top: -15px;
-    left: 0px;
-}
-
-/* .descrpt{
-    background-color: #4CAF50;
-} */
-.product-list, .product-details, .cart, .checkout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    
-}
-.product-list{
-    border: no;
-}
-.product, .cart-item, .checkout-item {
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-    border: none;
-}
-.product img, .cart-item img, .checkout-item img {
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(10px 10px 5px #d3d3d3)
-   
-}
-.product img:hover{
-    scale: 1.2;
-transition: 0.5s;
-}
-.product-details {
-    display: none;
-    flex-direction: column;
-    border: none;
-}
-.product-details img {
-    width: 300px;
-    height: auto;
-}
-
-
-.back-button,  .checkout-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 30%;
-    border-radius: 7px;
-}
-.show-cart-button{
-    position: absolute;
-    padding: 10px;
-    /* background-color: #4CAF50; */
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    border-radius: 7px;
-    margin-left: 85%;   
-    margin-top: -180px; 
-}
-.add-to-cart-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 30%;
-    border-radius: 7px;
-    
-}
-.cart, .checkout {
-    display: none;
-    flex-direction: column;
-    margin-left: 450px;
-}
-.cart-summary, .checkout-summary {
-    margin-top: 20px;
-    padding: 10px;
-    /* border: 1px solid #ddd; */
-}
-.checkout-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.checkout-form input, .checkout-form textarea {
-    padding: 10px;
-    width: 300px;
-    border: 1px solid #ddd;
-}
-
-
-
-
-
-
-

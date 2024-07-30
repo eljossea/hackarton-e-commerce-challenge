@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0; padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 
  /* HEADER */
@@ -74,42 +74,65 @@
       cursor: pointer;
 }
 
-
-.iphone{
-    position: relative;
+body {
+    font-family: Arial, sans-serif;
+    /* padding: 20px; */
+}
+.product-list, .product-details, .cart, .checkout {
     display: flex;
-    width: 800px;
-    /* border: 1px solid; */
-    border-radius: 5px;
-    /* background-color: rgba(255, 127, 80, 0.227); */
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.iphoneD {
-    margin-top: 50px;
+.product, .cart-item, .checkout-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
 }
-.iphone img{
-    width: 500px;
-    height: 400px;
+.product img, .cart-item img, .checkout-item img {
+    width: 100%;
+    height: auto;
 }
-.iphone p{
-    font-size: 18px;
-    margin-top: 40px;
+.product-details {
+    display: none;
+    flex-direction: column;
 }
-.iphone button{
-    width: 500px;
-    height: 50px;
-    text-align: center;
-    background-color: blue;
+.product-details img {
+    width: 300px;
+    height: auto;
 }
-.iphone button img{
-    width: 40px;
-    height: 20px;
+.back-button, .show-cart-button, .checkout-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 }
-
-.descript {
+.add-to-cart-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+.cart, .checkout {
+    display: none;
+    flex-direction: column;
+}
+.cart-summary, .checkout-summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.checkout-form {
     display: flex;
-    width: 400px;
-    height: 800px;
-    background-color: aquamarine;
-    margin-left: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkout-form input, .checkout-form textarea {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
 }

@@ -1,73 +1,78 @@
 
-// Form validation
-const form = document.querySelector('form');
-const usernameInput = document.querySelector('#username');
-const passwordInput = document.querySelector('#password');
+function validation() {
+  const username = document.formFill.Username.value;
+  const email = document.formFill.Email.value;
+  const password = document.formFill.Password.value;
+  const confirmPassword = document.formFill.CPassword.value;
+  const resultElement = document.getElementById("result");
+  const popup = document.getElementById("popup");
 
-form.addEventListener('submit', (e) => {
-	e.preventDefault();
-	if (usernameInput.value.trim() === '' || passwordInput.value.trim() === '') {
-		alert('Please fill in both username and password');
-	} else {
-		// Submit the form
-		form.submit();
-	}
-});
-
-// Forgot password functionality
-const forgotPasswordLink = document.querySelector('.forgot-password a');
-forgotPasswordLink.addEventListener('click', (e) => {
-	e.preventDefault();
-	// TO DO: implement forgot password logic
-});
-
-// Create account functionality
-const createAccountLink = document.querySelector('.create-account a');
-createAccountLink.addEventListener('click', (e) => {
-	e.preventDefault();
-	// TO DO: implement create account logic
-});
-
-
-const formm = document.querySelector('.login-form');
-formm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const username = document.querySelector('#username').value;
-  const password = document.querySelector('#password').value;
-  // Validate username and password
-  if (username && password) {
-    // Login logic goes here
-    // Redirect to home page
-    window.location.href = 'design.html'; // or '/' or whatever your home page URL is
+  if (username === "") {
+      resultElement.innerHTML = "Enter Username";
+      return false;
+  } else if (username.length < 6) {
+      resultElement.innerHTML = "Username should be at least six characters";
+      return false;
+  } else if (email === "") {
+      resultElement.innerHTML = "Enter your Email";
+      return false;
+  } else if (password === "") {
+      resultElement.innerHTML = "Enter your Password";
+      return false;
+  } else if (password.length < 6) {
+      resultElement.innerHTML = "Password must be more than 6 characters";
+      return false;
+  } else if (confirmPassword === "") {
+      resultElement.innerHTML = "Confirm Password";
+      return false;
+  } else if (password !== confirmPassword) {
+      resultElement.innerHTML = "Password does not match";
+      return false;
   } else {
-    alert('Please fill in both username and password.');
+      const user = {
+          username: username,
+          email: email,
+          password: password,
+      };
+
+      localStorage.setItem(email, JSON.stringify(user));
+      popup.classList.add("openSlide");
+      return false;
   }
-});
+}
 
-// OOOOOOOOOOOOOOOOOOOOOOOOOOOOO 
 
-// JavaScript for form validation
-document.getElementById('login-form').addEventListener('submit', function(event) {
-  var username = document.getElementById('username').value;
-  var password = document.getElementById('password').value;
 
-  if (!username || !password) {
-    alert('Please enter both username/email and password.');
-    event.preventDefault();
+function login() {
+  const email = document.getElementById('loginEmail').value;
+  const password = document.getElementById('loginPassword').value;
+  const resultElement = document.getElementById("loginResult");
+
+  // Fetch the user by email
+  const storedUser = JSON.parse(localStorage.getItem(email));
+
+  if (!storedUser) {
+      resultElement.innerHTML = "Invalid";
+      return false;
   }
-});
 
-document.getElementById('signup-form').addEventListener('submit', function(event) {
-  var newUsername = document.getElementById('new-username').value;
-  var newPassword = document.getElementById('new-password').value;
-  var confirmPassword = document.getElementById('confirm-password').value;
-
-  if (!newUsername || !newPassword || !confirmPassword) {
-    alert('Please fill in all fields.');
-    event.preventDefault();
-  } else if (newPassword !== confirmPassword) {
-    alert('Passwords do not match.');
-    event.preventDefault();
+  if (storedUser.password !== password) {
+      resultElement.innerHTML = "Invalid Password";
+      return false;
   }
-});
+
+  else{
+  resultElement.innerHTML = "Login successful!";
+  
+  // setTimeout(function() {
+  //     window.location.href = 'checkOut.html';
+  // }, 2000);
+  
+  setTimeout(function() {
+    window.location.href = 'shop.html';
+}, 2000);
+  return false;
+}
+
+}
 
