@@ -203,134 +203,158 @@
 
 
 const products = [
-    {
-        id: 1,
-        image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-        description: 'nokia 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-        price: 1898000,
-        // rating: 5,
-    },
-    {
-      id: 1,
-      image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-      description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-      price: 1898000
-  },
   {
     id: 1,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
+    image: 'assets/Apple Iphone 15 pro Max 512gb-Nano Sim-Natural Titanium.png',
     description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
     price: 1898000
   },
   {
     id: 2,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
+    image: 'assets/Apple 14 pro Max 6.7 6G RAM+128GB ROM.png',
+    description: 'Apple IPhone 14 Pro Max 6.7 6G RAM+128GB ROM - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
     price: 1898000
   },
   {
     id: 3,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'samsung 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
+    image: 'assets/Apple Iphone 13 pro Max 6.7 Super Retina XDR Display with pro motion(6GB RAM+512GBROM) IOS 15 GREEN.png',
+    description: 'Apple Iphone 13 pro Max 6.7 Super Retina XDR Display with pro motion(6GB RAM+512GBROM) IOS 15 GREEN',
     price: 1898000
   },
   {
     id: 4,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Apple Iphone 12 pro Max-6.7-inch-128GB ROM 6GB RAM.png',
+    description: 'Apple IPhone 12 Pro Max - 6.7-Inch - 128GB ROM, 6GB RAM - 2815mAh <br> Brand: Apple | Similar products from Apple <br>  3 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 880,000'
   },
   {
     id: 5,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Apple Iphone 11 pro Max-6.5--4GBRAM 256GB ROM-Space grey.png',
+    description: 'Apple IPhone 11 Pro Max - 6.5" - 4GB RAM, 64GB ROM - Gold <br> Brand: Apple | Similar products from Apple <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 760,000'
   },
   {
     id: 6,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Apple Iphone XR-6.1-64GB ROM 3GB RAM 2942mAh-Coral.png',
+    description: 'Apple IPhone XR - 6.1" - 64GB ROM, 3GB RAM, 2942mAh <br> Brand: Apple | Similar products from Apple <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 760,000'
   },
   {
     id: 7,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Apple Iphone Xs Max-6.5 64GB ROM 4GB RAM 3174mAh-Gold.png',
+    description: 'Apple IPhone XS Max 256GB Gold, + Power Bank <br> Brand: Apple | Similar products from Apple <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 495,000'
   },
   {
     id: 8,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/samsung_fold.png',
+    description: 'Samsung Galaxy Z Fold 4 1 SIM - 12GB RAM, 512GB - Black <br> Brand: Samsung | Similar products from Samsung <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 1,000,000'
   },
   {
     id: 9,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Samsung Galaxy S24-6.2-256Gb Rom-8gb Ram-4000mah-Gray.png',
+    description: 'Samsung Galaxy S24 Ultra 5G - 6.8" (1TB/12GB) 5000mAh - Grey <br> Brand: Samsung | Similar products from Samsung <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 2,880,000'
   },
   {
     id: 10,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Samsung Galaxy S21 Ultra.png',
+    description: 'Samsung Galaxy S21 Ultra 5G - 6.8, 256GB / 12GB, Single Sim -Black <br> Brand: Samsung | Similar products from Samsung <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)', 
+    price: '₦ 740,000'
   },
   {
     id: 11,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Samsung Galaxy S10-6.1 128GB ROM-8GB ROM-8GB RAM.png',
+    description: 'Samsung Galaxy S10 6.1" Single Sim 128gb/8gb <br> Brand: Samsung | Similar products from Samsung <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 275,000'
   },
   {
     id: 12,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/samsung-galaxy-s10-5g-600x600.png',
+    description: 'Samsung Galaxy S10 5G 8gb Ram 256GB Rom Single Sim Black <br> Brand: Samsung | Similar products from Samsung <br>  + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 430,000'
   },
   {
     id: 13,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Samsung Galaxy A33.png',
+    description: 'Samsung Galaxy A33 5G, 6GB/128GB Memory - Black <br> Brand: Samsung | Similar products from Samsung <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 493,500'
   },
   {
     id: 14,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
-  },{
+    image: 'assets/Samsung Galaxy A22.png',
+    description: 'Samsung Galaxy A22 5G, 4GB/62GB Memory - Black <br> Brand: Samsung | Similar products from Samsung <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 300,500'
+  },
+  {
     id: 15,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    image: 'assets/Samsung Galaxy A17.png',
+    description: 'Samsung Galaxy A17, 4GB/62GB Memory <br> Brand: Samsung | Similar products from Samsung <br> + shipping from ₦ 600 to LEKKI-AJAH',
+    price: '₦ 250,000'
   
-  },{
+  },
+  {
     id: 16,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
-  },{
+    image: 'assets/Samsung Galaxy A15 6.5GB RAM 128GB ROM ANDROID 14-Light blue.png',
+    description: 'Samsung Galaxy A15, 4GB/62GB Memory - Black <br> Brand: Samsung | Similar products from Samsung <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 200,000'
+  },
+  {
     id: 17,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
-  },{
+    image: 'assets/Samsung+Galaxy+A15+Blue+Black+Hero - Copy.png',
+    description: 'Samsung Galaxy A22 5G, 4GB/62GB Memory - Black <br> Brand: Samsung | Similar products from Samsung <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 210,000'
+  },
+  {
     id: 18,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
-  },{
+    image: 'assets/Nokia C31.png',
+    description: 'Nokia C31 - 6.75" HD+ - 3GB/32GB MEMORY- 4G LTE- 5050mAh- Charcoal  <br> Brand: Nokia | Similar products from Nokia  <br> Few units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 81,990'
+  },
+  {
     id: 19,
     image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
-  },{
-    id: 20,
-    image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0390262/1.jpg?0127',
-    description: 'Apple IPhone 15 Pro Max 512gb - Nano Sim - Natural Titanium <br> Brand: Apple | Similar products from Apple <br> ₦ 1,898,000 ₦ 3,300,000 42% <br> In stock <br> + shipping from ₦500 to every state in Nigeria <br> 5 out of 5 <br> (1 verified rating)',
-    price: 1898000
+    description: 'Nokia C30 6.82" HD+ 3GB RAM/64GB ROM Android 11 - Green Brand: Nokia | Similar products from Nokia  3 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 81,990'
   },
+  {
+    id: 20,
+    image: 'assets/Nokia G10.png',
+    description: 'Nokia G10, 6.5" HD+ (4GB RAM, 64GB ROM) Android 11 (13/2/2)MP + 8MP Selfie - 4G - 5050mAh - Fingerprint- Dark Blue <br> Brand: Nokia | Similar products from Nokia  <br> In stock <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 97,900'
+  },
+  {
+    id: 21,
+    image: 'assets/Nokia T20.png',
+    description: 'Nokia T20 -10.4” 4GB/64GB, 8MP Camera, LTE - 8200mAh - Ocean Blue <br> Brand: Nokia | Similar products from Nokia <br>  9 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 177,990'
+  },
+  {
+    id: 22,
+    image: 'assets/Nokia C12.png',
+    description: 'Nokia C12 - 6.3 2GB RAM, 64GB ROM 8MP Dual SIM - Light Mint <br> Brand: Nokia | Similar products from Nokia <br>  1 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 79,490'
+  },
+  {
+    id: 23,
+    image: 'assets/Nokia C22.png',
+    description: 'Nokia C22 - 6.5" 2+64GB Memory, 13/8/2MP 4G - Charcoal <br> Brand: Nokia | Similar products from Nokia <br>  1 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 148,500'
+  },
+  {
+    id: 24,
+    image: 'assets/Nokia G11.png',
+    description: 'Nokia G11 PLUS TA-1421 DS 3/64 GREY < br> Brand: Nokia | Similar products from Nokia <br>  2 units left <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 159,999'
+  },
+  {
+    id: 25,
+    image: 'assets/Nokia X30.png',
+    description: 'Nokia X30 - Snapdragon 5G - 6.43" (8GB RAM, 256GB ROM) Android 12 (50/13)MP + 16MP Selfie - Dual Sim - 4200mAh - Cloudy Blue <br> Brand: Nokia | Similar products from Nokia  <br> + shipping from ₦ 600 to LEKKI-AJAH (SANGOTEDO)',
+    price: '₦ 769,999'
+  },
+  
     // Add more product objects here
   ];
   
