@@ -5,7 +5,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 body{
-background-color: #000;
+background-color: #3b4261;
 width: 100%;
 min-height: 100vh;
 }
@@ -18,13 +18,38 @@ min-height: 100vh;
 .formBox{
 position: relative;
 width: 400px;
-height: 600px;
+height: 500px;
 border: 2px solid rgba(255,255,2550.5);
 border-radius: 20px;
 backdrop-filter: blur(25px);
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.animated-text {
+  position: absolute;
+  max-width: 100%;
+  /* background-color: #000; */
+  margin-top: -600px;
+  color: #fff;
+  font-size: 2rem;
+  animation: slideInLeft 5s ease-in-out infinite;
+  max-width: 100%;
+  text-align: center;
+  /* background: rgba(255, 255, 255, 0.8); */
+  border-radius: 10px;
+  /* animation: fadeIn 2s ease-in-out ; */
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.animated-text h2{
+  font-size: 30px;
 }
 
 .formBox h2{
@@ -62,7 +87,7 @@ input::placeholder{
 }
 .Sbtn{
   color: #fff;
-  background: black;
+  background: rgb(131, 109, 109);
   width: 100%;
   height: 50px;
   outline: none;
