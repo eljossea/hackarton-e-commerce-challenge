@@ -9,3 +9,10 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
     alert('Thank you for subscribing to our newsletter!');
     this.reset();
 });
+
+
+
+
+function openWhatsApp() {
+    window.open('https://wa.me/07041668088', '_blank');
+}
