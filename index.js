@@ -18,6 +18,8 @@ btnA[1].onclick = function(){
 }
 
 
-
+function openWhatsApp() {
+    window.open('https://wa.me/+2347041668088', '_blank');
+}
 
 

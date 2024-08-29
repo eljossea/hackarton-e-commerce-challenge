@@ -74,13 +74,6 @@ a :hover {
     cursor: pointer;
 }
   
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-  
-} */
-
-
 .info{
     max-width: 50%;
     height: 500px;
@@ -108,6 +101,7 @@ a :hover {
 
 .container {
     max-width: 700px;
+    height: 100vh;
     margin: 50px auto;
     padding: 20px;
     background-color: #555;
@@ -238,11 +232,13 @@ footer {
     border-radius: 7px;
   }
   
-  .footer-container {
+  .footer{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
     background-color: #3b4261;
+    /* margin: 100px; */
   }
   
   .footer-section {
@@ -303,7 +299,7 @@ footer {
   }
   
   @media (max-width: 768px) {
-    .footer-container {
+    .footer {
       flex-direction: column;
       align-items: center;
     }
@@ -330,4 +326,3 @@ footer {
     }
   }
   
-}

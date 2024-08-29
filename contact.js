@@ -14,5 +14,5 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
 
 
 function openWhatsApp() {
-    window.open('https://wa.me/07041668088', '_blank');
+    window.open('https://wa.me/+2347041668088', '_blank');
 }
